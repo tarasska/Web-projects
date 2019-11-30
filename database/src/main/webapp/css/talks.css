@@ -1,0 +1,19 @@
+.talksForm .error {
+    color: red;
+}
+
+.talksTable {
+    margin-top: 2rem;
+}
+
+.talksForm textarea {
+    resize: none;
+}
+
+.refreshForm .button-field {
+    margin-top: 2rem;
+}
+
+.refreshMessage {
+    margin-top: 2rem;
+}

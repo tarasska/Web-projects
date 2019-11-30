@@ -1,0 +1,32 @@
+.datatable  {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.datatable .caption {
+    background-color: var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 0.25rem;
+}
+
+.datatable table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.datatable table tr th {
+    height: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+.datatable table tr td {
+    height: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+
+.datatable table tbody tr:nth-child(2n + 1) {
+    background-color: rgb(240, 240, 240);
+}

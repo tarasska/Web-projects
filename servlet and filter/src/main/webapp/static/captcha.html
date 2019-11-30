@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Captcha</title>
+</head>
+<body>
+<main>
+    <div class="captcha-form">
+        <form method="post">
+            <div class="image">
+                <img src="data:image/png;base64,%s" alt="captcha">
+            </div>
+            <div class="input">
+                <p>
+                    <label for="captcha-text"> Enter text: </label>
+                    <input type="text" name="captcha-code" id="captcha-text">
+                </p>
+                <p><input type="submit" value="Send"></p>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
+

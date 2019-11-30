@@ -1,0 +1,227 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --border-table-radius: 8px;
+    --background-table-color: rgb(230, 230, 230);
+    --black-color: #333;
+    --caption-color: #3B5998;
+    --transparent-font-color: #888;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    padding: 1rem;
+    min-width: 600px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+
+header nav {
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 0.25rem;
+    margin-top: 1rem;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav .search {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    font-size: 0.5rem;
+    background-color: var(--background-table-color);
+}
+
+header nav .search input {
+    background: url("../img/search-16x16.png") no-repeat;
+    height: 0.8rem;
+    padding-left: 16px;
+}
+
+.middle {
+    margin-top: 1rem;
+}
+
+.middle main .login-form-box {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.middle main .login-form-box .header {
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem;
+    color: var(--caption-color);
+    font-weight: bold;
+}
+
+.middle main .login-form-box .body {
+}
+
+.middle main .login-form-box .body .field {
+    width: 80%;
+    text-align: left;
+    column-count: 2;
+    column-gap: 2.5%;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+
+
+.middle main .login-form-box .body .field .name {
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: right;
+}
+
+.middle main .login-form-box .body .field .value {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.middle main .login-form-box .body .field input {
+    width: 100%;
+}
+
+.middle main .login-form-box .body .field .error {
+    vertical-align: sub;
+    color: red;
+    font-size: 0.8rem;
+}
+
+.middle main .login-form-box .body .checkbox-field {
+    margin-top: 5%;
+    margin-left: 46%;
+}
+
+.middle main .login-form-box .body .button-field {
+    margin-top: 5%;
+    margin-left: 46%;
+}
+
+.middle main .login-form-box .body .button-field input {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.middle main .login-form-box .links {
+    text-align: right;
+    padding-top: 1rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.middle main .login-form-box .footer {
+    border-top: 1px solid var(--border-color);
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 0.75rem;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+main {
+    margin-right: 21rem;
+}
+
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+aside section {
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+aside section .header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→";
+}
+
+aside section .body {
+    padding: 1rem;
+}
+
+aside section .footer {
+    border-top: 1px solid var(--border-color);
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+aside section .footer a {
+    float: right;
+    font-size: 0.75rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}

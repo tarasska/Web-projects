@@ -1,0 +1,59 @@
+.user-profile {
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    min-height: max-content;
+    min-width: 90%;
+    overflow: hidden;
+}
+
+.user-profile .info {
+    position: relative;
+    max-width: 50%;
+    display: inline-block;
+}
+
+.user-profile > .user-img {
+    position: relative;
+    float: right;
+    max-width: 50%;
+}
+
+.user-profile .user-img img {
+    object-fit: fill;
+}
+
+.user-profile .user-name {
+    font-size: 2rem;
+}
+
+.arrow {
+    font-size: 2rem;
+    color:  var(--caption-color);
+    text-decoration: none;
+}
+
+.inactive-arrow {
+    font-size: 2rem;
+    color: var(--border-color);
+}
+
+.beauty-handle {
+    text-decoration: none;
+}
+
+.RED {
+    color: red;
+}
+
+.BLUE {
+    color: blue;
+}
+
+.GREEN {
+    color: green;
+}
+
+
